@@ -12,7 +12,8 @@ html {
 }
 body {
   margin: 0;
-  font: 16px/1 sans-serif;
+  line-height: 1;
+  font-family: sans-serif;
 }
 iframe {
   border: 0;
