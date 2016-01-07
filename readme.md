@@ -1,4 +1,4 @@
-# ![Barebones](fix-logo.svg)
+# ![Fix](fix-logo.svg?raw=true)
 
 A quick reference for patching up unruly browser CSS defaults. Part normalization, part reset.
 
