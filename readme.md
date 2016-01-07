@@ -1,4 +1,4 @@
-# ![Fix](fix-logo.svg?raw=true)
+# ![Fix](http://jaydenseric.com/shared/fix-logo.svg)
 
 A quick reference for patching up unruly browser CSS defaults. Part normalization, part reset.
 
