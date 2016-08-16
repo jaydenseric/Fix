@@ -3,40 +3,50 @@
  * Version 0.1.1
  * https://github.com/jaydenseric/Fix
 */
+
 html {
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
 }
+
 body {
   margin: 0;
   line-height: 1;
   font-family: sans-serif;
 }
+
 iframe {
   border: 0;
 }
+
 main {
   display: block;
 }
+
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 li {
   display: block;
 }
+
 dl {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 dd {
   margin-left: 0;
 }
+
 h1,
 h2,
 h3,
@@ -47,14 +57,17 @@ h6 {
   margin-bottom: 0;
   font-size: inherit;
 }
+
 blockquote {
   margin: 0;
   padding: 0;
 }
+
 p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 sup {
   position: relative;
   top: -.5em;
@@ -62,25 +75,31 @@ sup {
   font-size: 75%;
   line-height: 0;
 }
+
 strong {
   font-weight: bold;
 }
+
 figure {
   margin: 0;
 }
+
 img {
   border: 0;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 button {
-  border: 0;
+  box-sizing: content-box;
   margin: 0;
+  border: 0;
   padding: 0;
   text-align: inherit;
   text-transform: inherit;
@@ -91,7 +110,44 @@ button {
   cursor: pointer;
   overflow: visible;
 }
+
 ::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: .7em;
+  padding-right: 2.05em;
+  border: 0;
+  border-radius: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  color: darkslateblue;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s
+}
+
+select:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .15em rgba(0, 0, 0, .1);
+}
+
+select:disabled {
+  opacity: .7;
+  cursor: default;
+}
+
+::-ms-expand {
+  display: none;
 }
